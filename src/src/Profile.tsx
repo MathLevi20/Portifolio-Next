@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 
 function Profile() {
-   const Resume =
+  const Resume =
     "https://firebasestorage.googleapis.com/v0/b/portifolio-2ebbb.appspot.com/o/Curriculos%2FCurriculo_MatheusLevi_Portuguese.pdf?alt=media&token=98182258-7581-4378-8c38-1084f32ded1d";
 
   const icons = [
@@ -29,8 +29,8 @@ function Profile() {
   ];
 
   return (
-    <div className=" font-mono flex w-full flex-wrap mb-10 flex-col md:flex-row content-center">
-      <div className="  h-full n w-full sm:w-3/4 lg:w-1/2 pt-10 mx-auto p-3  ">
+    <div className=" font-mono  flex w-full flex-wrap mb-10 flex-col md:flex-row content-center">
+      <div className="  h-full n w-full  sm:w-3/4 lg:w-1/2 pt-10 mx-auto p-3  ">
         <h1 className="text-7xl   my-auto text-center mt-2 sm:mt-10 animate-fade">
           Olá,Meu nome é Matheus
         </h1>
@@ -49,9 +49,6 @@ function Profile() {
               className="px-5 py-2 rounded-md flex items-center text-xs uppercase bg-gray-700 font-bold leading-snug text-white hover:opacity-75"
               href={Resume}
             >
-           
-              
-    
               <span className="">Resumo</span>
             </a>
           </button>

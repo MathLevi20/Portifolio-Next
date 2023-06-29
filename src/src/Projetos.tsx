@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from "next/dynamic";
-
+import "../index.css";
 const Carousel = dynamic(() => import("@brainhubeu/react-carousel"), {
   ssr: false, // Impede a renderização do lado do servidor
 });
