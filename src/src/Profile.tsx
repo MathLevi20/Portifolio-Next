@@ -2,9 +2,11 @@
 /* eslint-disable react/jsx-no-undef */
 import React from "react";
 import Image from "next/image";
-import { Resume } from "./Navbar";
 
 function Profile() {
+   const Resume =
+    "https://firebasestorage.googleapis.com/v0/b/portifolio-2ebbb.appspot.com/o/Curriculos%2FCurriculo_MatheusLevi_Portuguese.pdf?alt=media&token=98182258-7581-4378-8c38-1084f32ded1d";
+
   const icons = [
     { key: 0, path: "icons/typescript.svg", alt: "TypeScript" },
     { key: 1, path: "icons/javascript.svg", alt: "JavaScript" },
@@ -47,7 +49,9 @@ function Profile() {
               className="px-5 py-2 rounded-md flex items-center text-xs uppercase bg-gray-700 font-bold leading-snug text-white hover:opacity-75"
               href={Resume}
             >
-              {" "}
+           
+              
+    
               <span className="">Resumo</span>
             </a>
           </button>

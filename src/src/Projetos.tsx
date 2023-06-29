@@ -1,5 +1,10 @@
 import React from "react";
-import Carousel from "@brainhubeu/react-carousel";
+import dynamic from "next/dynamic";
+
+const Carousel = dynamic(() => import("@brainhubeu/react-carousel"), {
+  ssr: false, // Impede a renderização do lado do servidor
+});
+
 import "@brainhubeu/react-carousel/lib/style.css";
 
 export const Projects = [
